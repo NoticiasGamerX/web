@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+.carousel-inner {
+    height: 600px;
+
+}
+
+.carousel-inner .cacarousel-item{
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    margin: auto;
+    cursor: pointer;
+    transition: 4s;
+    text-align: center;
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: 4s;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.noticia_1{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.noticia_2{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
